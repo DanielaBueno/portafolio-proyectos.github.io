@@ -120,14 +120,6 @@ ul li {
 .contactos li p {
     flex: 1;
 }
-
-.contactos li a {
-    text-decoration: none;
-}
-
-.contactos li a:hover {
-    text-decoration: underline;
-}
  
 a {
     text-decoration: none;
