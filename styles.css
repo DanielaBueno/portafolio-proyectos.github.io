@@ -99,20 +99,6 @@ ul li {
     margin-bottom: 15px;
 }
 
-a {
-    text-decoration: none;
-    color: #193250;
-    max-width: 100%;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:visited {
-    color: brown;
-}
-
 .contactos {
     list-style: none;
     padding: 0; 
@@ -131,15 +117,24 @@ a:visited {
     width: 30px;
 }
 
-.contactos li span {
+.contactos li p {
     flex: 1;
 }
 
 .contactos li a {
     text-decoration: none;
+}
+ 
+a {
+    text-decoration: none;
     color: #193250;
+    max-width: 100%;
 }
 
-.contactos li a:hover {
-    text-decoration: underline; 
+a:hover {
+    text-decoration: underline;
+}
 
+a:visited {
+    color: brown;
+}
